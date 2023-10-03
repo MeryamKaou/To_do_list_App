@@ -81,8 +81,10 @@ li #delete-button {
 
 li {
     list-style: none;
-    margin-bottom: 10px;
-    padding: 10px;
-    background-color: lightblue;
+    margin-bottom: 1px;
+    padding: 8px;
+    background-color: lightgray;
+    color: white;
     border-radius: 5px;
+
 }
