@@ -1,53 +1,7 @@
-/*body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-}
-*/
-#todo-list {
-    width: 500px;
-    margin: 0 auto;
-    text-align: center;
+body {
+    background-color: black;
 }
 
-/*
-h1 {
-    color: #333;
-}
-
-input[type="text"] {
-    width: 70%;
-    padding: 10px;
-}
-
-button {
-    padding: 10px 20px;
-    background-color: #333;
-    color: white;
-    border: none;
-    cursor: pointer;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-li {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border: 1px solid #ddd;
-    margin: 5px 0;
-    padding: 5px 10px;
-}
-
-li #delete-button {
-    background-color: #ff3333;
-    color: white;
-    border: none;
-    cursor: pointer;
-}
-*/
 #todo-form {
     display: flex;
     justify-content: center;
@@ -63,6 +17,10 @@ li #delete-button {
     outline: none;
     margin-right: 10px;
 
+}
+
+h1 {
+    color: antiquewhite;
 }
 
 #add-task {
@@ -84,7 +42,17 @@ li {
     margin-bottom: 1px;
     padding: 8px;
     background-color: lightgray;
-    color: white;
+    color: black;
     border-radius: 5px;
+    cursor: pointer;
 
+}
+
+.list-container {
+    width: 450px;
+    margin: 0 auto;
+    text-align: center;
+    /* Centrer le contenu horizontalement */
+    margin-top: 39vh;
+    /* Ajuster la marge verticale pour centrer verticalement */
 }
